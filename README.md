@@ -1,1 +1,1 @@
-Bootcamp course content
+Frontend developers Bootcamp - Course content
