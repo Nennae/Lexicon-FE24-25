@@ -1,0 +1,41 @@
+*,
+*::before,
+*::after {
+      box-sizing: border-box;
+}
+
+/* remove default spacing */
+/* force styling of type through styling, rather than elements */
+
+* {
+      margin: 0;
+      padding: 0;
+      font: inherit;
+}
+
+/* responsive images/videos */
+img,
+picture,
+svg,
+video {
+      display: block;
+      max-width: 100%;
+}
+
+nav {
+      background-color: green;
+}
+
+nav.open {
+      background-color: hotpink;
+}
+
+a.toggle {
+      position: absolute;
+      top: 1rem;
+      left: 1rem;
+      width: 1rem;
+      height: 1rem;
+      border-radius: 50px;
+      background-color: red;
+}
