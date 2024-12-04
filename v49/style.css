@@ -7,16 +7,16 @@
 *,
 *::before,
 *::after {
-      box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* remove default spacing */
 /* force styling of type through styling, rather than elements */
 
 * {
-      margin: 0;
-      padding: 0;
-      font: inherit;
+  margin: 0;
+  padding: 0;
+  font: inherit;
 }
 
 /* responsive images/videos */
@@ -24,76 +24,136 @@ img,
 picture,
 svg,
 video {
-      display: block;
-      max-width: 100%;
+  display: block;
+  max-width: 100%;
 }
 
 :root {
-      --main-font-family: "Roboto", sans-serif;
-      --section-color: #587291;
-      --btn-bg-color: #5B2E48;
-      --white-text: #ffff;
-      --black-text: #0000;
+  --main-font-family: "Roboto", sans-serif;
+  --section-color: #587291;
+  --btn-bg-color: #5b2e48;
+  --btn-hover-color: #42152f;
+  --white-text: #ffff;
+  --black-text: #0000;
 }
 
 body {
-      display: flex;
-      flex-direction: column;
-      font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
 }
 
 .hero-image {
-      /*background shorthand*/
-/* background: url(./images/getCoding.jpeg) no-repeat center / cover; */
-      background-image: url(./images/getCoding.jpeg);
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      position: relative;
-      min-height: 100vh;
+  /*background shorthand*/
+  /* background: url(./images/getCoding.jpeg) no-repeat center / cover; */
+  background-image: url(./images/getCoding.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* Can be used when setting the top,
+            right,
+            bottom,
+            and left properties - else static
+      /* position: relative; */
+  min-height: 100vh;
 }
 
 .navigation {
-      position: absolute;
-      margin: 1.5em;
-      left: 0;
-      right: 0;
+  position: absolute;
+  margin: 1.5em;
+  left: 0;
+  right: 0;
 }
-.nav-list{
-      display: flex;
-      justify-content: space-evenly;
-      min-width: 350px;
-      overflow: hidden;
-      background-color: pink;
-      padding: 1em;
-      box-shadow: 1px 2px 20px 2px rgba(147, 141, 141, 0.2);
+.nav-list {
+  display: flex;
+  justify-content: space-evenly;
+  min-width: 350px;
+  /* Used when scrolling needed */
+  /* overflow: hidden; */
+  background-color: #f8f8f8;
+  padding: 1.2em;
+  box-shadow: 1px 2px 20px 2px rgba(147, 141, 141, 0.2);
 }
 
 .nav-items {
-      list-style: none;
+  font-size: 1.2rem;
+}
+
+li {
+  list-style: none;
 }
 
 a {
-      text-decoration: none;
-      color: black;
+  text-decoration: none;
+  color: black;
 }
+
 a:hover {
-      text-decoration: underline;
-      font-weight: 600;
-      color: rgb(43, 42, 42);
+  text-decoration: underline;
+  font-weight: 600;
+  color: rgb(43, 42, 42);
+}
+
+a:visited {
+  color: rgb(81, 76, 76);
 }
 
 .main-content {
-      background-color: var(--section-color);
-      min-height: 100vh;
-      align-content: center;
-      justify-items: center;
+  background-color: var(--section-color);
+  min-height: 100vh;
+  align-content: center;
+  justify-items: center;
 }
 
 .page-section {
-      justify-items: center;
+  justify-items: center;
+  padding: 3em;
 }
+
 .page-text {
-      margin-bottom: 2em;
-      text-align: center;
+  margin-bottom: 2em;
+  text-align: center;
+  color: var(--white-text);
+  font-size: 1.7rem;
+  font-weight: 400;
+}
+
+.read-more-btn {
+  padding: 0.7em 1.2em;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 2px 4px 4px 0px rgba(29, 28, 28, 0.2);
+  background-color: var(--btn-bg-color);
+  color: var(--white-text);
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+
+.read-more-btn:hover {
+  background-color: var(--btn-hover-color);
+  border: 1px solid black;
+  transition: 1s ease-in-out;
+}
+
+.footer {
+  padding: 2em;
+}
+
+.footer-list {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer-items {
+  padding: 1em;
+}
+
+@media only screen and (min-width: 360px) and (max-width: 768px) {
+  .footer-list {
+    justify-content: center;
+  }
+  .hero-image,
+  .main-content {
+    min-height: 50vh;
+  }
 }
