@@ -1,0 +1,81 @@
+/* RESET */
+
+*,
+*::before,
+*::after {
+      box-sizing: border-box;
+}
+
+* {
+      margin: 0;
+      padding: 0;
+      font: inherit;
+}
+
+/* VARIABLES */
+
+:root {
+      --btn1-bg-color: pink;
+      --btn2-bg-color: lightgreen;
+      --btn3-bg-color: aliceblue;
+      --text-color: rgb(41, 40, 40);
+      --body-bg-color: rgb(246, 238, 238);
+      --btn-font-size: 1.2rem;
+      --btn-padding: 2.5em 3.5em;
+}
+
+body {
+      min-height: 100vh;
+      display: flex;
+      flex-flow: column nowrap;
+
+}
+
+h1 {
+      font-size: 3rem;
+      font-family: sans-serif;
+}
+
+/* UTILITY CLASSES */
+
+/* GENERAL STYLES */
+
+/* BLOCKS - aka components */
+
+.header {
+      background-color: var(--body-bg-color);
+      color: var(--text-color);
+      padding: 1rem 1rem 0.5rem;
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-between;
+}
+
+/* ELEMENTS - semantically tied to the block */
+
+.header__btn {
+      padding: var(--btn-padding);
+      border-radius: 5px;
+      font-size: var(--btn-font-size);
+}
+
+/* MODIFIERS - incremental style changes */
+
+/* Blocks with modifiers */
+.header__btn--secondary {
+      background-color: var(--btn2-bg-color);
+}
+
+.header__btn--lean {
+      background-color: var(--btn1-bg-color);
+}
+
+.header__btn--border-lg {
+      border: 5px solid black; 
+}
+
+
+
+
+
+

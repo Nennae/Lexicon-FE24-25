@@ -4,10 +4,10 @@ body {
 }
 
 .card {
-      width: 200px;
-      height: 300px;
-      border-radius: 7px;
       position: relative;
+      width: 200px;
+      height: 250px;
+      border-radius: 7px;
 }
 
 .card:nth-child(1) {
