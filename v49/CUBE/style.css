@@ -1,0 +1,145 @@
+*,
+*::before,
+*::after {
+      box-sizing: border-box;
+}
+
+* {
+      margin: 0;
+      padding: 0;
+      font: inherit;
+}
+
+body {
+      font-family: sans-serif;
+      color: rgb(2, 2, 23);
+      background-color: aliceblue;
+      line-height: 1.6;
+
+      /* for display only */
+      display: grid;
+      min-height: 100vh;
+      place-items: center;
+}
+
+h1, 
+h2, 
+h3 {
+      line-height: 1.1;
+}
+
+h2 {
+      font-size: 1.5rem;
+      font-weight: 900;
+}
+
+/* Composition */
+
+/* selecting every direct child of the flow except the first one */
+/* .flow > * + * {
+      margin-top: 1em;
+      border: 1px solid;
+} */
+
+.grid-flow {
+      display: grid;
+      gap: 1em;
+}
+
+.flex-row {
+      display: flex;
+      gap: 1em;
+}
+
+
+/* Utility */
+
+.padding-24 {
+      padding: 1.5rem;
+}
+
+.padding-48 {
+      padding: 3rem;
+}
+
+.text-dark {
+      color: darkblue;
+}
+
+.text-subdued {
+      color: rgb(44, 44, 190);
+}
+
+.bg-neutral-100 {
+      background-color: antiquewhite;
+}
+
+.bg-neutral-200 {
+      background-color: rgb(213, 204, 193);
+}
+
+.text-align-left {
+      text-align: start;
+}
+
+.text-align-center {
+      text-align: center;
+}
+
+.text-align-right {
+      text-align: end;
+}
+
+.fw-bold {
+      font-weight: 700;
+}
+
+.fw-extra-bold {
+      font-weight: 900;
+}
+
+.br-1 {
+      border-radius: .5rem;
+}
+
+.br-2 {
+      border-radius: 1rem;
+}
+
+.button {
+      background: transparent;
+      padding: 1em 2em;
+      cursor: pointer;
+      text-decoration: none;
+      font-weight: 700;
+      border: 0;
+      border-radius: .5rem;
+}
+
+/* Exceptions */
+
+.button[data-type="primary"] {
+      background-color: pink;
+}
+
+.button[data-type="naked"] {
+      background-color: rgb(203, 197, 198);
+}
+
+.button[data-type="naked"]:hover,
+.button[data-type="naked"]:focus {
+      background-color: rgb(232, 89, 113);
+}
+
+.button[data-type="primary"]:hover,
+.button[data-type="primary"]:focus {
+      background-color: rgb(208, 125, 139);
+}
+
+/* Block */
+
+.card {
+      overflow: hidden;
+      /* for demonstration only */
+      max-width: 450px;
+}
