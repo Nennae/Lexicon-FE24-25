@@ -1,9 +1,26 @@
-* {
-      margin: 0;
+*,
+*::before,
+*::after {
       box-sizing: border-box;
 }
-/*comment*/
+
+* {
+      margin: 0;
+      padding: 0;
+      font: inherit;
+}
+
+img,
+picture,
+svg,
+video {
+      display: block;
+      max-width: 100%;
+}
+
 body {
+      display: grid;
+      grid-template-columns: 15em auto 15em;
       background-color: rgb(249, 249, 248);
       font-family: "Montserrat", serif;
       margin: 20px 100px;
@@ -19,4 +36,9 @@ body {
       border-bottom: 1px solid rgb(196, 17, 17);
       /* margin: 0 auto; */
       padding: 10px;
+}
+
+img {
+      max-width: 400px;
+      max-height: 300px;
 }
