@@ -18,12 +18,24 @@ video {
       max-width: 100%;
 }
 
+html, body {
+      height: 100%;
+}
+
 body {
       display: grid;
-      grid-template-columns: 15em auto 15em;
+      /* accepts column track-sizes */
+      grid-template-columns: 10em auto 15em;
+      /* defines the number of rows in a grid container and their heights */
+      grid-template-rows: min-content auto min-content;
+      /* gaps between grids items */
+      /* row-gap: 3em;
+      column-gap: 2em; */
+      /* shorthand for row + column gap */
+      gap: 3em 2em;
       background-color: rgb(249, 249, 248);
       font-family: "Montserrat", serif;
-      margin: 20px 100px;
+      margin: 2em 5em;
 }
 
 .page-title {
@@ -36,6 +48,19 @@ body {
       border-bottom: 1px solid rgb(196, 17, 17);
       /* margin: 0 auto; */
       padding: 10px;
+}
+
+/* header and footer layout */
+.header, .footer {
+      /* defines the grid line a grid item should start at */
+      /* Below, the values stretches over the browser width */
+      grid-column-start: 1;
+      grid-column-end: 4;
+}
+
+.main-content {
+      grid-column-start: 1;
+      grid-column-end: 3;
 }
 
 img {
