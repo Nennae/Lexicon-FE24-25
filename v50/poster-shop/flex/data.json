@@ -27,7 +27,7 @@
             "image": {
                   "desktop": "../assets/images/char4.png"
             },
-            "name": "Doctor",
+            "name": "Snorkler",
             "description": "Lorem ipsum election hurricane Greek alphabet take out order super-spreader event disinfect doggface208 Clorox wipes.",
             "price": 5.50
       },
@@ -35,7 +35,7 @@
             "image": {
                   "desktop": "../assets/images/char5.png"
             },
-            "name": "Musician",
+            "name": "Clown",
             "description": "Lorem ipsum hurricane Greek alphabet wash hands UFO social distancing home haircut protests stimulus into quarantine.",
             "price": 4.00
       },
@@ -43,31 +43,32 @@
             "image": {
                   "desktop": "../assets/images/char6.png"
             },
-            "name": "Snorkler",
+            "name": "Police",
             "description": "Lorem ipsum what day is it? protests PPE my camera is off doggface208 Lysol spray Zoom call social distance.",
             "price": 5.00
       },
       {
             "image": {
-                  "desktop": "../assets/images/char7.png"
-            },
-            "name": "Clown",
-            "description": "Lorem ipsum maskne TikTok postponed working from home spread what day is it? virtual happy hour this claim is disputed.",
-            "price": 4.50
-      },
-      {
-            "image": {
                   "desktop": "../assets/images/char8.png"
             },
-            "name": "Police",
+            "name": "Princess",
             "description": "Lorem ipsum second wave Tiger King flatten the curve wash hands baby Yoda Carole Baskin pod K-shaped recovery.",
             "price": 4.50
       },
       {
             "image": {
-                  "desktop": "../assets/images/char9.png"
+                  "desktop": "../assets/images/char12.png"
             },
-            "name": "Princess",
+            "name": "Musician",
+            "description": "Lorem ipsum maskne TikTok postponed working from home spread what day is it? virtual happy hour this claim is disputed.",
+            "price": 4.50
+      },
+      
+      {
+            "image": {
+                  "desktop": "../assets/images/char11.png"
+            },
+            "name": "Doctor",
             "description": "Lorem ipsum second wave Tiger King flatten the curve wash hands baby Yoda Carole Baskin pod K-shaped recovery.",
             "price": 6.50
       }
