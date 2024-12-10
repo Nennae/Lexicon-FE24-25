@@ -12,7 +12,7 @@ function displayProducts(products) {
         const productDiv = document.createElement("div");
         
     productDiv.innerHTML = `
-      <img src="${product.image.desktop}" alt="${product.name}" />
+      <img class="char-img" src="${product.image.desktop}" alt="${product.name}" />
       <h2>${product.name}</h2>
       <p>${product.description}</p>
       <p>Price: $${product.price.toFixed(2)}</p>
