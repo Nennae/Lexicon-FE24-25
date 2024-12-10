@@ -27,4 +27,7 @@ video {
       --footer-bg-color: rgb(71, 69, 69);
       --featured-bg-color: rgb(247, 241, 241);
       --list-bg-color: rgba(71, 3, 3, 0.736);
+      --font-family-primary: "Montserrat",
+            sans-serif;
+      --font-family-title: "Doto", sans-serif;
 }
