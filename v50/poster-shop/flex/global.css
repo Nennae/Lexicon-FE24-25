@@ -1,0 +1,30 @@
+*,
+*::before,
+*::after {
+      box-sizing: border-box;
+}
+
+* {
+      margin: 0;
+      padding: 0;
+      font: inherit;
+}
+
+img,
+picture,
+svg,
+video {
+      display: block;
+      max-width: 100%;
+}
+
+:root {
+      --header-bg-color: rgb(60, 238, 132);
+      --main-bg-color: rgb(13, 13, 13);
+      --btn-bg-color: rgb(224, 67, 67);
+      --text-color-light: rgb(245, 239, 239);
+      --text-color-dark: rgb(22, 21, 21);
+      --footer-bg-color: rgb(71, 69, 69);
+      --featured-bg-color: rgb(247, 241, 241);
+      --list-bg-color: rgba(71, 3, 3, 0.736);
+}
