@@ -9,7 +9,8 @@ function displayProducts(products) {
   const shopContent = document.getElementById("shop-content");
 
   products.forEach((product) => {
-        const productDiv = document.createElement("div");
+    const productDiv = document.createElement("div");
+    productDiv.classList.add("img-container");
         
     productDiv.innerHTML = `
       <img class="char-img" src="${product.image.desktop}" alt="${product.name}" />

@@ -1,0 +1,58 @@
+.header {
+      display: flex;
+      flex-direction: column;
+      padding: 1em;
+
+      .ninja-svg {
+            align-self: center;
+      }
+      
+      .icon-container {
+            display: flex;
+            justify-content: space-between;
+      }
+}
+
+#shop-content {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4em;
+      justify-content: center;
+      padding: 4em;
+
+      .img-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            gap: 0.7rem;
+      }
+
+      button {
+            align-self: flex-start;
+      }
+}
+
+.feat-image-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      padding: 2rem;
+      gap: 2rem;
+
+      figure {
+            display: flex;
+            flex-wrap: wrap;
+      }
+}
+
+.footer {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      gap: 2em;
+
+      .social-links {
+            display: flex;
+            gap: 1em;
+      }
+}
