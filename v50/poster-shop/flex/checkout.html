@@ -17,12 +17,59 @@
 </head>
 <body>
   <header class="header">
-    <h1 class="shop-title">Poster shop</h1>
-    <img src="../assets/icons/ninjahead.svg" alt="peeking ninja">
-    <img src="../assets/icons/cart.svg" alt="cart">
+    <div class="icon-container">
     <img src="../assets/icons/navicon.svg" alt="menu">
+    <a href="checkout.html"><img class="header-icons" src="../assets/icons/cart.svg" alt="cart"></a>
+    </div>
+    <h1 class="shop-title">Check out</h1>
+    <img class="ninja-svg" src="../assets/icons/ninjahead.svg" alt="peeking ninja">
   </header>
-  <main class="cart-main">
+  <main class="main-content">
+    <section class="featured-content">
+      <h2 class="cart-title">Products in cart</h2>
+        <div class="feat-image-container">
+          <figure>
+            <img src="../assets/images/char9.png" alt="photographer" />
+            <h2>Personal trainer</h2>
+            <figcaption>
+            </figcaption>
+            <button class="read-btn">Remove</button>
+          </figure>
+          <figure>
+            <img src="../assets/images/char7.png" alt="personal trainer" />
+            <h2>Photographer</h2>
+            <figcaption>
+            </figcaption>
+            <button class="read-btn">Remove</button>
+          </figure>
+        </div>
+        <section class="cart-info">
+          <ul class="cart-titles">
+            <li>Products</li>
+            <li>Amount</li>
+            <li>Price</li>
+          </ul>
+          <article class="cart-article">
+            <ul class="cart-products">
+              <li>Poster Photographer</li>
+              <li>Poster Personal trainer</li>
+            </ul>
+            <ul class="cart-amounts">
+              <li>1</li>
+              <li>1</li>
+            </ul>
+            <ul class="cart-prices">
+              <li>89 SEK</li>
+              <li>89 SEK</li>
+            </ul>
+          </article>
+          <ul class="cart-total">
+            <li>Total</li>
+            <li>178 SEK</li>
+          </ul>
+          <button class="check-out-btn">Check out</button>
+        </section>
+    </section>
   </main>
   <footer class="footer">
     <article class="footer-item">
@@ -40,7 +87,7 @@
       </address>
     </article>
     <article class="footer-item">
-      <h3 class="footer-title">Social</h3>
+      <h3 class="footer-title">Social media</h3>
       <article class="social-links">
         <a href="https://x.com/?lang=sv" target="_blank"><img src="../assets/icons/logo-twitter.svg" alt="twitter logo">
         </a>
