@@ -45,11 +45,6 @@
       justify-content: center;
       gap: 2rem;
 
-      figure {
-            display: flex;
-            flex-direction: column;
-      }
-
       button {
             align-self: flex-start;
       }
