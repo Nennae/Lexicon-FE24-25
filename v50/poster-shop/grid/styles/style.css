@@ -9,11 +9,7 @@
       .shop-title {
             font-family: var(--font-family-title);
             font-size: 5rem;
-            text-align: center;
-      }
-
-      .ninja-svg {
-            max-width: 15em;
+            /* text-align: center; */
       }
 
       .icon-container {
@@ -58,7 +54,7 @@
       }
 
       figure {
-            max-width: 35em;
+            /* max-width: 35em; */
             background-color: var(--featured-bg-color);
       }
 
@@ -120,7 +116,7 @@
       }
 
       .adress {
-            max-width: 12em;
+            /* max-width: 12em; */
       }
 
       li, .adress {
@@ -128,7 +124,7 @@
       }
 
       .social-links img {
-            width: 1.5em;
+            /* width: 1.5em; */
       }
 }
 
