@@ -16,7 +16,7 @@ function displayProducts(products) {
       <img class="char-img" src="${product.image.desktop}" alt="${product.name}" />
       <h2>${product.name}</h2>
       <p>${product.description}</p>
-      <p>Price: $${product.price.toFixed(2)}</p>
+      <p>Price: ${product.price.toFixed(2)} SEK</p>
       <button class="add-to-cart-btn" data-name="${product.name}" data-price="${
       product.price
     }">Add to Cart</button>
