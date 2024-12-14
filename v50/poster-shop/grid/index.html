@@ -1,62 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet">
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link
-        href="https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="../styles/style.css" />
-    <title>Poster Shop</title>
-  </head>
-  <body>
-    <header class="header">
-      <h1 class="shop-title">Poster shop</h1>
-      <img src="../assets/icons/ninjahead.svg" alt="peeking ninja">
-      <img src="../assets/icons/cart.svg" alt="cart">
-      <img src="../assets/icons/navicon.svg" alt="menu">
-    </header>
-    <section class="shop-content"></section>
-    <section class="featured-content"></section>
-    <footer class="footer">
-      <article class="footer-item">
-        <h3 class="footer-title">Nav</h3>
-        <ul class="footer-nav">
-          <li><a href="#products">Products</a></li>
-          <li><a href="#about">About Us</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--Font families-->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+    <!--Stylesheet-->
+  <link rel="stylesheet" href="./styles/style.css" />
+  <title>Poster Shop</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="icon-container">
+      <img class="header-icons" src="../assets/icons/navicon.svg" alt="menu" />
+      <a href="checkout.html">
+        <img class="header-icons" src="../assets/icons/cart.svg" alt="cart">
+      </a>
+    </div>
+    <h1 class="shop-title">Poster shop</h1>
+    <img class="ninja-svg" src="../assets/icons/ninjahead.svg" alt="peeking ninja" />
+  </header>
+  <main class="main-content">
+    <!--Shop content - main-->
+    <section id="shop-content">
+      <!--Rendered via scripts-->
+    </section>
+    <!--Featured content -main-->
+    <section class="featured-content">
+      <div class="feat-image-container">
+        <figure>
+          <img src="../assets/images/char9.png" alt="photographer">
+          <h2>Personal trainer</h2>
+          <figcaption>
+            Lorem ipsum X Æ A-Xii postponed no march madness stimulus quaranteam
+            wear a mask the new normal home haircut.
+          </figcaption>
+          <button class="read-btn">Read more</button>
+        </figure>
+        <figure>
+          <img src="../assets/images/char7.png" alt="personal trainer">
+          <h2>Photographer</h2>
+          <figcaption>
+            Lorem ipsum asymptomatic disinfect protests schadenfreude it's about
+            March 213th drive-in.
+          </figcaption>
+          <button class="read-btn">Read more</button>
+        </figure>
+      </div>
+    </section>
+  </main>
+  <!--Footer-->
+  <footer class="footer">
+    <article class="footer-item">
+      <h3 class="footer-title">Nav</h3>
+      <ul class="footer-nav">
+        <li><a href="#products">Products</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </article>
+    <article class="footer-item">
+      <h3 class="footer-title">Adress</h3>
+      <address class="adress">Plinkeplonkvägen 32
+        888 81 Klonkberga
+      </address>
+    </article>
+    <article class="footer-item">
+      <h3 class="footer-title">Social media</h3>
+      <article class="social-links">
+        <a href="https://x.com/?lang=sv" target="_blank"><img src="../assets/icons/logo-twitter.svg" alt="twitter logo">
+        </a>
+        <a href="https://www.facebook.com/" target="_blank">
+          <img src="../assets/icons/logo-facebook.svg" alt="facebook logo">
+        </a>
+        <a href="https://www.linkedin.com/" target="_blank">
+          <img src="../assets/icons/logo-linkedin.svg" alt="linkedin logo">
+        </a>
+        <a href="https://www.instagram.com/" target="_blank">
+          <img src="../assets/icons/logo-instagram.svg" alt="instagram logo">
+        </a>
       </article>
-      <article class="footer-item">
-        <h3 class="footer-title">Adress</h3>
-        <address class="adress">Plinkeplonkvägen 32
-          888 81 Klonkberga
-        </address>
-      </article>
-      <article class="footer-item">
-        <h3 class="footer-title">Social</h3>
-        <article class="social-links">
-          <a href="https://x.com/?lang=sv" target="_blank"><img src="../assets/icons/logo-twitter.svg" alt="twitter logo">
-          </a>
-          <a href="https://www.facebook.com/" target="_blank">
-            <img src="../assets/icons/logo-facebook.svg" alt="facebook logo">
-          </a>
-          <a href="https://www.linkedin.com/" target="_blank">
-            <img src="../assets/icons/logo-linkedin.svg" alt="linkedin logo">
-          </a>
-          <a href="https://www.instagram.com/" target="_blank">
-            <img src="../assets/icons/logo-instagram.svg" alt="instagram logo">
-          </a>
-        </article>
-      </article>
-    </footer>
-    <script src="../scripts/data.js" type="module"></script>
-    <script src="../scripts/app.js" type="module"></script>
-  </body>
+    </article>
+  </footer>
+  <!--Scripts-->
+  <script src="../scripts/data.js" type="module"></script>
+  <script src="../scripts/app.js" type="module"></script>
+</body>
+
 </html>
