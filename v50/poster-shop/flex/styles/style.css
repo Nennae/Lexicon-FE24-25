@@ -16,8 +16,8 @@
             padding: 1.5em;
 
             .header-icons {
-                        width: 2em;
-                  }
+                  width: 2em;
+            }
       }
 }
 
@@ -33,15 +33,14 @@
       color: var(--text-color-light);
       margin-bottom: 4em;
 
-      /* classes declared in app.js */
-            /* .img-container {
-                  max-width: 20em;
-            } */
+      button {
+            padding: 0.3em 2em;
+            border-radius: 5px;
+      }
 
-            button {
-                  padding: 0.3em 2em;
-                  border-radius: 5px;
-            }
+      .img-container:nth-child(n+10) {
+            display: none;
+      }
 }
 
 /* Content with the two larger posters */
@@ -68,10 +67,11 @@
             border-radius: 7px;
             margin: 0.5em;
       }
-            figcaption,
-            h2 {
-                  padding: 0.5em;
-            }
+
+      figcaption,
+      h2 {
+            padding: 0.5em;
+      }
 }
 
 /* Content below the larger posters in cart */
@@ -95,12 +95,13 @@
             margin-top: 1em;
             padding-top: 1em;
             font-weight: 600;
-}
-.check-out-btn {
-      padding: 0.8em 5em;
-      border-radius: 7px;
-      margin-top: 4em;
-}
+      }
+
+      .check-out-btn {
+            padding: 0.8em 5em;
+            border-radius: 7px;
+            margin-top: 4em;
+      }
 
 }
 
@@ -119,47 +120,12 @@
             max-width: 12em;
       }
 
-      li, .adress {
+      li,
+      .adress {
             font-size: 0.8rem;
       }
 
       .social-links img {
             width: 1.5em;
       }
-}
-
-/* Mutual styles across the pages */
-h2,
-h3,
-button,
-.shop-title {
-      font-weight: 700;
-}
-
-h2 {
-      font-size: 1.5rem;
-}
-
-p,
-figcaption {
-      font-size: 1.15rem;
-}
-
-button {
-      background-color: var(--btn-bg-color);
-      border: none;
-      color: var(--text-color-light);
-}
-
-h3 {
-      font-size: 1.3rem;
-}
-
-a {
-      text-decoration: none;
-      color: inherit;
-}
-
-li {
-      list-style: none;
 }

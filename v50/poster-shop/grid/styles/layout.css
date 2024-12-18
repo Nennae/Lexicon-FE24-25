@@ -1,0 +1,116 @@
+
+.header {
+      display: grid;
+
+      .shop-title {
+            /* centers only until screen is 528px wide */
+            justify-self: center;
+      }
+
+      .ninja-svg {
+            justify-self: center;
+            align-self: end;
+      }
+
+      .icon-container {
+
+            .cart-icon {
+                  /* Better to use flexbox on parent for positioning */
+                  justify-self: end;
+            }
+      }
+}
+
+/* 3 x 3 grid layout - responsive */
+#shop-content {
+      display: grid;
+      place-self: center;
+      /* auto-fit for responsivity, minmax for item size */
+      grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+      gap: 2rem;
+
+      /* .img-container:nth-child(n+10) { */
+                  /* SOLUTION IN PROGRESS FOR LARGER SCREENS*/
+            /* } */
+}
+
+/* 1 x 1 grid layout - large screen version */
+.featured-content {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: min-content auto;
+      column-gap: 2em;
+      grid-template-areas: "title title title title"
+      "image1 image1 image2 image2"
+      "cartinfo cartinfo cartinfo cartinfo";
+      
+      .cart-page-title {
+            grid-area: title;
+      }
+
+      .image1 {
+            grid-area: image1;
+      }
+            .image2 {
+                  grid-area: image2;
+            }
+
+            .cart-info {
+                  grid-area: cartinfo;
+            }
+}
+
+@media (max-width: 400px) {
+      .featured-content {
+            grid: auto-flow min-content / 20em;
+            grid-template-areas: "title"
+            "image1"
+            "image2"
+            "cartinfo";
+            place-content: center;
+      }
+            .large-btn {
+                  justify-self: center !important;
+            }
+}
+
+.cart-info {
+      display: grid;
+      gap: .5em;
+
+      .cart-titles,
+      .cart-article {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+      }
+            .cart-amounts,
+            .amount {
+                  justify-self: center;
+            }
+
+      .cart-totals {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+      }
+
+      .large-btn,
+      .cart-prices,
+      .total-price,
+      .price {
+            justify-self: end;
+      }
+} 
+
+.footer {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+
+      .footer-item {
+            justify-self: center;
+      }
+      .social-links {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+      }
+      
+}

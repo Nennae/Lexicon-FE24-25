@@ -21,6 +21,7 @@ video {
 
 /* global variables */
 :root {
+      /* colors */
       --header-bg-color: rgb(60, 238, 132);
       --main-bg-color: rgb(13, 13, 13);
       --btn-bg-color: rgb(224, 67, 67);
@@ -28,14 +29,60 @@ video {
       --text-color-dark: rgb(22, 21, 21);
       --footer-bg-color: rgb(50, 48, 48);
       --featured-bg-color: rgb(247, 241, 241);
+      /* font-families */
       --list-bg-color: rgba(71, 3, 3, 0.736);
       --font-family-primary: "Montserrat",
             sans-serif;
       --font-family-title: "Doto", sans-serif;
+      /* buttons */
       --sm-btn-padding: 0.3em 2em;
       --sm-btn-radius: 5px;
-      --md-btn-padding: 0.7em 2.5em;
+      --md-btn-padding: 0.7em 3.5em;
       --md-btn-radius: 7px;
-      --lg-btn-padding: 0.8em 5em;
+      --lg-btn-padding: 0.8em 5.5em;
       --lg-btn-radius: 8px;
+}
+
+/* mutual styles across the pages */
+h2,
+h3,
+button,
+h1 {
+      font-weight: 700;
+}
+
+h2,
+h3,
+p,
+button {
+      margin-bottom: .5rem;
+      line-height: 1.4;
+}
+
+
+h2 {
+      font-size: 1.5rem;
+}
+
+p {
+      font-size: 1.15rem;
+}
+
+h3 {
+      font-size: 1.3rem;
+}
+
+button {
+      background-color: var(--btn-bg-color);
+      border: none;
+      color: var(--text-color-light);
+}
+
+a {
+      text-decoration: none;
+      color: inherit;
+}
+
+li {
+      list-style: none;
 }

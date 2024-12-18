@@ -4,7 +4,7 @@
                   "desktop": "../assets/images/char1.png"
             },
             "name": "Astronaut",
-            "description": "Lorem ipsum asymptomatic disinfect protests schadenfreude it's about March 213th drive-in.",
+            "description": "Lorem ipsum asymptomatic disinfect protests schadenfreude it's about March 213th drive-in for food and drinks.",
             "price": 69
       },
       {
@@ -44,7 +44,7 @@
                   "desktop": "../assets/images/char6.png"
             },
             "name": "Police",
-            "description": "Lorem ipsum what day is it? protests PPE my camera is off doggface208 Lysol spray Zoom call social distance.",
+            "description": "Lorem ipsum what day is it? protests PPE my camera is off doggface208 Lysol spray Zoom call social distance and stuff.",
             "price": 99
       },
       {
@@ -69,6 +69,22 @@
                   "desktop": "../assets/images/char11.png"
             },
             "name": "Doctor",
+            "description": "Lorem ipsum second wave Tiger King flatten the curve wash hands baby Yoda Carole Baskin pod K-shaped recovery.",
+            "price": 69
+      },
+      {
+            "image": {
+                  "desktop": "../assets/images/char7.png"
+            },
+            "name": "Photographer",
+            "description": "Lorem ipsum second wave Tiger King flatten the curve wash hands baby Yoda Carole Baskin pod K-shaped recovery.",
+            "price": 69
+      },
+      {
+            "image": {
+                  "desktop": "../assets/images/char9.png"
+            },
+            "name": "Personal trainer",
             "description": "Lorem ipsum second wave Tiger King flatten the curve wash hands baby Yoda Carole Baskin pod K-shaped recovery.",
             "price": 69
       }

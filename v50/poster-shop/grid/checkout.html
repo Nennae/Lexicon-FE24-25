@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Font families-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
@@ -13,70 +14,85 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet">
+    <!--Stylesheet-->
   <link rel="stylesheet" href="./styles/style.css">
   <title>Poster Shop Checkout</title>
 </head>
 
 <body>
+  <!-- Header -->
   <header class="header">
+    <!--Navigation icons: cart & hamburger menu-->
     <div class="icon-container">
-      <img src="../assets/icons/navicon.svg" alt="menu">
-      <a href="checkout.html"><img class="header-icons" src="../assets/icons/cart.svg" alt="cart"></a>
+      <img class="header-icons"  src="../assets/icons/navicon.svg" alt="menu">
+      <a href="checkout.html"><img class="header-icons cart-icon"  src="../assets/icons/cart.svg" alt="cart"></a>
     </div>
+    <!--Title & Ninja Logo-->
     <h1 class="shop-title">Check out</h1>
     <img class="ninja-svg" src="../assets/icons/ninjahead.svg" alt="peeking ninja">
   </header>
+
   <main class="main-content">
     <!--Featured cart products-->
     <section class="featured-content">
-      <h2 class="cart-title">Products in cart</h2>
-      <div class="feat-image-container">
-        <figure>
+      <!--Section title-->
+      <h2 class="cart-page-title">Products in cart</h2>
+
+      <!-- <div class="feat-image-container"> -->
+        <div class="feat-image image1">
           <img src="../assets/images/char9.png" alt="photographer">
+          <div class="feat-card">
           <h2>Personal trainer</h2>
-          <figcaption>
-          </figcaption>
-          <button class="read-btn">Remove</button>
-        </figure>
-        <figure>
+          <button class="medium-btn">Remove</button>
+          </div>
+          </div>
+        </div>
+
+        <div class="feat-image image2">
           <img src="../assets/images/char7.png" alt="personal trainer">
+          <div class="feat-card">
           <h2>Photographer</h2>
-          <figcaption>
-          </figcaption>
-          <button class="read-btn">Remove</button>
-        </figure>
-      </div>
+          <button class="medium-btn">Remove</button>
+          </div>
+        </div>
+      <!-- </div> -->
+
       <!--Cart content information-->
       <section class="cart-info">
         <ul class="cart-titles">
-          <li>Products</li>
-          <li>Amount</li>
-          <li>Price</li>
+          <li class="cart-title">Products</li>
+          <li class="cart-title amount">Amount</li>
+          <li class="cart-title price">Price</li>
         </ul>
+
         <article class="cart-article">
           <ul class="cart-products">
-            <li>Poster Photographer</li>
-            <li>Poster Personal trainer</li>
+            <li class="cart-product">Poster Photographer</li>
+            <li class="cart-product">Poster Personal trainer</li>
           </ul>
+
           <ul class="cart-amounts">
-            <li>1</li>
-            <li>1</li>
+            <li class="cart-amount">1</li>
+            <li class="cart-amount">1</li>
           </ul>
+
           <ul class="cart-prices">
-            <li>89 SEK</li>
-            <li>89 SEK</li>
+            <li class="cart-price">89 SEK</li>
+            <li class="cart-price">89 SEK</li>
           </ul>
         </article>
-        <ul class="cart-total">
-          <li>Total</li>
-          <li>178 SEK</li>
+
+        <ul class="cart-totals">
+          <li class="total">Total</li>
+          <li class="total-price">178 SEK</li>
         </ul>
-        <button class="check-out-btn">Check out</button>
+        <button class="large-btn">Check out</button>
       </section>
     </section>
   </main>
   <!--Footer-->
   <footer class="footer">
+    
     <article class="footer-item">
       <h3 class="footer-title">Nav</h3>
       <ul class="footer-nav">
