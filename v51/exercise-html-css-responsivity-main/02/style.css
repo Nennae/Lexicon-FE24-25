@@ -30,7 +30,7 @@ li {
 
 .nav-list {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(7rem, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
       gap: 1em;
 }
 .nav-item {
@@ -41,7 +41,6 @@ li {
 .main {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-      grid-template-rows: ;
       gap: 1em;
       margin-bottom: .5em;
 }
