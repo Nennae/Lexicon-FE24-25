@@ -1,0 +1,24 @@
+ROCK, PAPER, SCISSOR
+
+function playGame
+
+array with strings rock, paper scissor;
+
+variable assigned the number 3 for winning score;
+
+variable to store player score;
+
+generate random element from above array;
+
+check if players choice is equal to generated element
+
+if same value 
+add 1 point to players score;
+
+else
+not;
+
+check which player reaches 3 points first
+
+end game when above condition is met
+

@@ -1,0 +1,17 @@
+KNOCK OUT - 2 DICE GAME
+
+* function to throw dices
+
+* array to store the knock out numbers 6,7,8,9
+
+* Store the targeted end score in a variable with your choice of score
+
+* Store the result of each throw in an array 
+
+* Store the score of thrown dices in a variable - to later add and subtract from it
+
+* A conditional check to compare the chosen score and the result of the thrown dices to see if the player has won
+
+* A conditional check to see if the player has thrown one of the knock out numbers, and if so subtract from score
+
+* End game when game targetet end score is reached

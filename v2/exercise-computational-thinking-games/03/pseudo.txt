@@ -1,0 +1,19 @@
+GOING TO BOSTON - 3 DICE GAME
+
+* function to throw the dices
+
+* variable to store max score: 18
+
+* variable to store the end score of the players
+
+* an empty array to push and store each highest numbered dice
+
+* a loop to iterate over the three dices
+
+* a conditional check, nested inside the above loop to exclude the highest numbered dice of each throw
+
+* when all dices are thrown - iterate over the now populated array and sum the numbers
+
+* assign above sum to the end score variable 
+
+* a conditional check to compare the players end score to see who wins

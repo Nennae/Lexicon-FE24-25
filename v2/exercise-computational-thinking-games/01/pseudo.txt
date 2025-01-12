@@ -1,0 +1,58 @@
+LATTER - 1 DICE GAME
+
+Decomposition:
+
+* Store the values 1-6 in a numerical order
+
+* Throw the dice 
+
+* Generate random numbers between 1 - 6 for each throw
+
+* Store the values of the thrown dice, when the numerical order 1-6 is achieved
+
+* Count each throw and store the value 
+
+* When the latter 1-6 is achieved - the game ends with the throw count information
+
+Pattern:
+
+* Arrays are needed to store the target sequence 1-6, and to store the values of the numbers got when dice is thrown
+
+* Generate a random number between 1-6 for each throw
+
+* A variable is needed to count and store each throw
+
+* An algorithm to compare the targetet sequence of numbers and the current sequence of numbers
+
+* The values 1-6 should only appear once each in the array that should store the thrown dice values
+
+Abstraction:
+
+* The values got when dice is thrown (random int number 1-6 generated) should match the targeted sequence of numbers. Therefore a comparison or check should be done between the two different sequences
+
+Algorithm design:
+
+function {
+
+      - array with values 1-6
+      - an empty array 
+
+      - variable for total number of throws
+
+- while empty array length is less than sequenced array {
+
+     - generate a random integer number between 1-6
+     
+     - and add throw count to variable
+
+     - if the dice number is equal to the index after the one in the sequenced array {
+
+      - push the dice number to the empty array
+     }
+}
+
+- when the sequence 1-6 is achieved - end game with the total amount of throws (stored in the variable)
+
+}
+
+- function call
