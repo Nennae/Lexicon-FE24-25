@@ -16,8 +16,9 @@ function reformatEmails(users) {
   
   return users.map((user) => {
     let lowerCaseDomain = user.nat.toLowerCase();
+    let emailFormat = `${user.name.last}.${user.name.first}@evilcorp.com`.toLowerCase();
     
-    return (user.email.replace('com', `${lowerCaseDomain}`));
+    return (emailFormat.replace('com', `${lowerCaseDomain}`));
     
   })
 }
