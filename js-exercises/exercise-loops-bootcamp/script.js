@@ -52,3 +52,25 @@ for (let s = 0; s < suites.length; s++) {
       }
 }
 console.log(cards);
+
+// 09
+let friends = [
+  {
+    name: "Sixten",
+    likes: ["bananas", "strawberries", "blueberries"],
+  },
+  {
+    name: "Khalid",
+    likes: ["papaya", "pear", "pineapple"],
+  },
+  {
+    name: "Lisa",
+    likes: ["raspberries", "watermelon", "apple"],
+  },
+];
+
+friends.map((friend) => {
+      for (let list in friend) {
+            console.log(friend[list]);
+      }
+})
